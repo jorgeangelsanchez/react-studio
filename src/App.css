@@ -1,9 +1,20 @@
 /* Add styling for your page here */
 
 .App {
-
+    display: flex;
+    justify-content: space-around;
+    background-color: powderblue;
 }
 
 .BakeryItem {
-  
+    display: flex;
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+img{
+    width:400px;
 }
